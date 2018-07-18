@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Dictionary">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_e_i"
+                    android:icon="@drawable/ic_book"
+                    android:title="@string/english_indonesia" />
+                <item
+                    android:id="@+id/nav_i_e"
+                    android:icon="@drawable/ic_book"
+                    android:title="@string/indonesia_english" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Comingsoon">
+    <menu>
+        <item
+            android:id="@+id/nav_coming_belanda"
+            android:icon="@drawable/ic_book"
+            android:title="@string/bekasi_jawa" />
+        <item
+            android:id="@+id/nav_coming_jawa"
+            android:icon="@drawable/ic_book"
+            android:title="@string/jawa_belanda" />
+    </menu>
+</item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
